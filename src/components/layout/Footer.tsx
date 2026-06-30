@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { Camera, Users, Music2, MapPin, Phone, Clock, PawPrint } from "lucide-react";
+import { Camera, Users, Music2, MapPin, Phone, Clock } from "lucide-react";
 import { CONTACT } from "../../data/constants";
+import petLogo from "../../assets/logo.svg";
 
 export function Footer() {
   const { t } = useTranslation();
@@ -12,11 +13,14 @@ export function Footer() {
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-4 py-14 sm:grid-cols-2 sm:px-6 lg:grid-cols-4 lg:px-8">
         <div>
           <div className="mb-3 flex items-center gap-2">
-            <span className="flex h-9 w-9 items-center justify-center rounded-2xl bg-gradient-purple text-white">
-              <PawPrint size={18} />
-            </span>
+            <img
+              src={petLogo}
+              alt="PET+ logo"
+              className="h-10 w-10"
+              style={{ filter: "brightness(0) invert(1)" }}
+            />
             <span className="font-display text-xl font-extrabold text-white">
-              PET<span className="text-purple-300">+</span>
+              PET<span className="text-accent-400">+</span>
             </span>
           </div>
           <p className="text-sm leading-relaxed text-purple-300">{t("footer.aboutText")}</p>

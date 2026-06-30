@@ -2,7 +2,8 @@ import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { AnimatePresence, motion } from "framer-motion";
-import { Menu, X, ShoppingCart, User, PawPrint, Search } from "lucide-react";
+import { Menu, X, ShoppingCart, User, Search } from "lucide-react";
+import petLogo from "../../assets/logo.svg";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { useCart } from "../../context/CartContext";
 
@@ -43,9 +44,7 @@ export function Header() {
       <div className="mx-auto flex max-w-7xl items-center gap-3 px-4 py-3 sm:px-6 lg:gap-6 lg:px-8">
         {/* LOGO */}
         <NavLink to="/" className="flex shrink-0 items-center gap-2">
-          <span className="flex h-10 w-10 items-center justify-center rounded-2xl grad-brand text-white shadow-brand">
-            <PawPrint size={20} />
-          </span>
+          <img src={petLogo} alt="PET+ logo" className="h-10 w-10" />
           <span className="font-display text-2xl font-black tracking-tight text-brand-800 hidden sm:block">
             PET<span className="text-accent-500">+</span>
           </span>

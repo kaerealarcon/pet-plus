@@ -121,25 +121,36 @@ export default function Home() {
         <div aria-hidden className="animate-blob pointer-events-none absolute -right-16 top-32 h-72 w-72 rounded-full bg-pop-400/20 blur-3xl" style={{ animationDelay: "4s" }} />
         <div aria-hidden className="animate-blob pointer-events-none absolute bottom-0 left-1/3 h-64 w-64 rounded-full bg-accent-400/15 blur-3xl" style={{ animationDelay: "2s" }} />
 
-        {/* ── decorative paws: 3 animal types ────────────── */}
+        {/* ── decorative paws: 3 animal types — scattered all over the hero ── */}
         <div aria-hidden className="pointer-events-none absolute inset-0 overflow-hidden select-none">
-          {/* 🐕 Dog paws (PawPrint) */}
-          <PawPrint size={54} className="absolute left-2 top-10 rotate-[18deg] text-brand-400 opacity-[0.08] animate-float" />
-          <PawPrint size={30} className="absolute left-8 bottom-12 rotate-[-12deg] text-brand-500 opacity-[0.07] animate-floatB" style={{ animationDelay: "1.2s" }} />
-          <PawPrint size={22} className="absolute left-[40%] top-4 rotate-[40deg] text-brand-400 opacity-[0.06]" />
-          <PawPrint size={38} className="absolute right-6 bottom-10 rotate-[-20deg] text-brand-400 opacity-[0.07] animate-float" style={{ animationDelay: "0.6s" }} />
 
-          {/* 🐈 Cat paws (CatPaw) */}
-          <CatPaw size={48} className="absolute left-14 top-[30%] rotate-[22deg] text-pop-500 opacity-[0.09] animate-floatB" style={{ animationDelay: "0.9s" }} />
-          <CatPaw size={28} className="absolute right-[28%] top-5 rotate-[-18deg] text-pop-400 opacity-[0.07]" />
-          <CatPaw size={40} className="absolute right-4 top-[28%] rotate-[10deg] text-pop-400 opacity-[0.09] animate-float" style={{ animationDelay: "2s" }} />
-          <CatPaw size={24} className="absolute left-[28%] bottom-8 rotate-[-30deg] text-pop-500 opacity-[0.07] animate-floatB" style={{ animationDelay: "1.8s" }} />
+          {/* 🐕 Dog paws (PawPrint) — 8 pcs */}
+          <PawPrint size={72}  className="absolute -left-4   top-6      rotate-[18deg]   text-brand-500 opacity-[0.09] animate-float"  />
+          <PawPrint size={44}  className="absolute left-8    top-[42%]  rotate-[-14deg]  text-brand-400 opacity-[0.07] animate-floatB" style={{ animationDelay: "1.2s" }} />
+          <PawPrint size={56}  className="absolute left-[18%] bottom-4  rotate-[10deg]   text-brand-500 opacity-[0.08] animate-float"  style={{ animationDelay: "2.1s" }} />
+          <PawPrint size={36}  className="absolute left-[42%] top-3     rotate-[45deg]   text-brand-400 opacity-[0.07] animate-floatB" style={{ animationDelay: "0.7s" }} />
+          <PawPrint size={62}  className="absolute right-[38%] bottom-6  rotate-[-22deg] text-brand-400 opacity-[0.08] animate-float"  style={{ animationDelay: "1.8s" }} />
+          <PawPrint size={40}  className="absolute right-8    top-[10%] rotate-[28deg]   text-brand-500 opacity-[0.07]" />
+          <PawPrint size={52}  className="absolute right-2    bottom-16  rotate-[-10deg] text-brand-400 opacity-[0.08] animate-floatB" style={{ animationDelay: "0.4s" }} />
+          <PawPrint size={30}  className="absolute left-[60%] top-[55%] rotate-[35deg]   text-brand-300 opacity-[0.07] animate-float"  style={{ animationDelay: "3s" }} />
 
-          {/* 🐦 Bird feet (BirdFoot) */}
-          <BirdFoot size={28} className="absolute left-[20%] top-8 rotate-[35deg] text-accent-500 opacity-[0.10] animate-floatB" style={{ animationDelay: "0.4s" }} />
-          <BirdFoot size={34} className="absolute right-14 bottom-14 rotate-[-28deg] text-accent-400 opacity-[0.10] animate-float" style={{ animationDelay: "1.5s" }} />
-          <BirdFoot size={22} className="absolute left-4 top-[55%] rotate-[15deg] text-accent-500 opacity-[0.08]" />
-          <BirdFoot size={26} className="absolute right-[40%] bottom-4 rotate-[-40deg] text-accent-400 opacity-[0.08] animate-floatB" style={{ animationDelay: "2.3s" }} />
+          {/* 🐈 Cat paws (CatPaw) — 7 pcs */}
+          <CatPaw   size={68}  className="absolute left-2    bottom-[30%] rotate-[20deg]  text-pop-500 opacity-[0.09] animate-floatB" style={{ animationDelay: "0.9s" }} />
+          <CatPaw   size={46}  className="absolute left-[32%] top-5      rotate-[-25deg] text-pop-400 opacity-[0.08] animate-float"  style={{ animationDelay: "1.5s" }} />
+          <CatPaw   size={58}  className="absolute right-4    top-[35%]  rotate-[12deg]   text-pop-400 opacity-[0.09] animate-floatB" style={{ animationDelay: "2s" }} />
+          <CatPaw   size={38}  className="absolute left-[52%] bottom-8   rotate-[-32deg] text-pop-500 opacity-[0.08] animate-float"  style={{ animationDelay: "1.1s" }} />
+          <CatPaw   size={50}  className="absolute left-[8%]  top-[18%]  rotate-[8deg]    text-pop-400 opacity-[0.07] animate-floatB" style={{ animationDelay: "2.5s" }} />
+          <CatPaw   size={34}  className="absolute right-[18%] top-[68%] rotate-[-18deg] text-pop-500 opacity-[0.08]" />
+          <CatPaw   size={44}  className="absolute right-[50%] top-[82%] rotate-[22deg]  text-pop-400 opacity-[0.07] animate-float"  style={{ animationDelay: "0.6s" }} />
+
+          {/* 🐦 Bird feet (BirdFoot) — 7 pcs */}
+          <BirdFoot size={42}  className="absolute left-[22%] top-10     rotate-[38deg]  text-accent-500 opacity-[0.10] animate-floatB" style={{ animationDelay: "0.4s" }} />
+          <BirdFoot size={52}  className="absolute right-16   bottom-6   rotate-[-28deg] text-accent-400 opacity-[0.10] animate-float"  style={{ animationDelay: "1.5s" }} />
+          <BirdFoot size={34}  className="absolute left-4     top-[65%]  rotate-[15deg]  text-accent-500 opacity-[0.09] animate-floatB" style={{ animationDelay: "2.2s" }} />
+          <BirdFoot size={46}  className="absolute right-[28%] bottom-14 rotate-[-42deg] text-accent-400 opacity-[0.09] animate-float"  style={{ animationDelay: "0.8s" }} />
+          <BirdFoot size={36}  className="absolute left-[70%] top-[15%]  rotate-[20deg]  text-accent-500 opacity-[0.08]" />
+          <BirdFoot size={40}  className="absolute left-[12%] top-[82%]  rotate-[-15deg] text-accent-400 opacity-[0.08] animate-floatB" style={{ animationDelay: "1.7s" }} />
+          <BirdFoot size={30}  className="absolute right-[42%] top-[38%] rotate-[50deg]  text-accent-500 opacity-[0.07] animate-float"  style={{ animationDelay: "2.8s" }} />
         </div>
 
         <div className="relative mx-auto grid max-w-7xl grid-cols-1 items-center gap-8 px-4 sm:px-6 lg:grid-cols-2 lg:gap-16 lg:px-8">
