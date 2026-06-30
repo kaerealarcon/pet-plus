@@ -22,7 +22,7 @@ function App() {
     <HelmetProvider>
       <AuthProvider>
         <CartProvider>
-          <BrowserRouter>
+          <BrowserRouter basename="/pet-plus">
             <Routes>
               <Route element={<Layout />}>
                 <Route index element={<Home />} />
