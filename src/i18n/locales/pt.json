@@ -1,0 +1,328 @@
+{
+  "common": {
+    "brand": "PET+",
+    "addToCart": "Adicionar ao carrinho",
+    "buyNow": "Comprar agora",
+    "seeMore": "Ver mais",
+    "seeAll": "Ver tudo",
+    "from": "a partir de",
+    "freeShipping": "Frete grátis em compras acima de R$ 199",
+    "searchPlaceholder": "Buscar produtos...",
+    "loading": "Carregando...",
+    "currency": "R$"
+  },
+  "nav": {
+    "home": "Início",
+    "shop": "Loja",
+    "services": "Serviços",
+    "about": "Sobre",
+    "account": "Minha Conta",
+    "contact": "Contato",
+    "faq": "FAQ",
+    "cart": "Carrinho"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Cuidado de verdade pro seu pet",
+      "title": "Todo o roxo do mundo de carinho pro seu pet",
+      "subtitle": "Loja completa e serviços profissionais de banho, tosa e veterinária. Tudo num só lugar, com quem entende de bicho de estimação.",
+      "ctaBook": "Agende banho e tosa",
+      "ctaShop": "Ver produtos",
+      "statPets": "+3.200 pets atendidos",
+      "statYears": "8 anos cuidando de quem você ama"
+    },
+    "promo": {
+      "title": "Ofertas que seu pet vai amar",
+      "subtitle": "Seleção especial com desconto por tempo limitado"
+    },
+    "services": {
+      "title": "Tudo que seu pet precisa",
+      "subtitle": "Serviços profissionais com quem trata seu pet como família",
+      "cta": "Agendar pelo WhatsApp"
+    },
+    "categories": {
+      "title": "Categorias em destaque",
+      "subtitle": "Tudo selecionado pensando no bem-estar do seu pet"
+    },
+    "testimonials": {
+      "title": "Quem ama, recomenda",
+      "subtitle": "Tutores reais, pets ainda mais felizes"
+    },
+    "petPanels": {
+      "dog":   "Cães",
+      "cat":   "Gatos",
+      "other": "Outros"
+    },
+    "newsletter": {
+      "title": "Promoções e dicas direto no seu e-mail",
+      "subtitle": "Sem spam, só carinho (e desconto).",
+      "placeholder": "Seu melhor e-mail",
+      "cta": "Quero receber"
+    }
+  },
+  "services": {
+    "bath": {
+      "name": "Banho",
+      "short": "Banho completo com produtos hipoalergênicos",
+      "description": "Banho completo com xampu e condicionador hipoalergênicos, secagem na escova e perfume suave. Cuidado pensado pra pele sensível e pelagem brilhante.",
+      "priceFrom": "45"
+    },
+    "grooming": {
+      "name": "Tosa",
+      "short": "Tosa higiênica, na tesoura ou na máquina",
+      "description": "Tosa higiênica, na tesoura ou na máquina, no estilo que combina com a raça e o jeito do seu pet. Equipe treinada e paciente com pets ansiosos.",
+      "priceFrom": "60"
+    },
+    "vet": {
+      "name": "Veterinária",
+      "short": "Consultas, vacinas e exames",
+      "description": "Consultas, vacinas, exames e check-ups com veterinário responsável. Atendimento humanizado, sem pressa, com você por perto.",
+      "priceFrom": "120"
+    },
+    "hotel": {
+      "name": "Hotel & Creche",
+      "short": "Hospedagem e recreação com supervisão 24h",
+      "description": "Hospedagem e recreação com supervisão 24h, espaço amplo e atividades em grupo. Seu pet brinca, descansa e volta pra casa feliz.",
+      "priceFrom": "80"
+    },
+    "pageTitle": "Nossos serviços",
+    "pageSubtitle": "Cuidado profissional, do banho à consulta veterinária",
+    "bookWhatsapp": "Agendar pelo WhatsApp",
+    "priceFromLabel": "a partir de",
+    "perDay": "/dia",
+    "gallery": "Conheça nosso espaço",
+    "whatsappMessage": "Olá! Quero agendar o serviço de {{service}} para o meu pet.",
+    "otherServices": "Outros serviços"
+  },
+  "shop": {
+    "title": "Loja",
+    "subtitle": "Tudo pro seu pet, com a qualidade que ele merece",
+    "filters": {
+      "title": "Filtros",
+      "category": "Categoria",
+      "animal": "Tipo de animal",
+      "size": "Porte",
+      "brand": "Marca",
+      "price": "Faixa de preço",
+      "clear": "Limpar filtros",
+      "apply": "Aplicar filtros"
+    },
+    "sort": {
+      "label": "Ordenar por",
+      "bestsellers": "Mais vendidos",
+      "priceAsc": "Menor preço",
+      "priceDesc": "Maior preço",
+      "newest": "Lançamentos"
+    },
+    "results_one": "{{count}} produto encontrado",
+    "results_other": "{{count}} produtos encontrados",
+    "empty": "Nenhum produto encontrado com esses filtros.",
+    "loadMore": "Carregar mais produtos",
+    "animalTypes": { "dog": "Cão", "cat": "Gato", "other": "Outros" },
+    "categories": {
+      "food": "Ração",
+      "toys": "Brinquedos",
+      "accessories": "Acessórios",
+      "hygiene": "Higiene",
+      "medicine": "Medicamentos"
+    },
+    "sizes": { "small": "Pequeno", "medium": "Médio", "large": "Grande" },
+    "badges": { "bestseller": "Mais vendido", "new": "Lançamento", "sale": "Promoção" }
+  },
+  "product": {
+    "inStock_one": "{{count}} unidade em estoque",
+    "inStock_other": "{{count}} unidades em estoque",
+    "outOfStock": "Fora de estoque",
+    "description": "Descrição",
+    "specs": "Ficha técnica",
+    "specsWeight": "Peso",
+    "specsBrand": "Marca",
+    "specsUsage": "Indicação de uso",
+    "specsSku": "Código",
+    "reviews": "Avaliações de clientes",
+    "reviewsCount_one": "{{count}} avaliação",
+    "reviewsCount_other": "{{count}} avaliações",
+    "related": "Você também pode gostar",
+    "selectVariant": "Selecione uma opção",
+    "quantity": "Quantidade",
+    "addedToCart": "Adicionado ao carrinho!",
+    "breadcrumbShop": "Loja",
+    "usageText": "Siga as recomendações da embalagem. Em caso de dúvida, consulte nosso time ou veterinário responsável.",
+    "sampleReviews": [
+      { "author": "Marina T.", "rating": 5, "text": "Produto excelente, chegou rapidinho e meu pet amou! Super recomendo." },
+      { "author": "Bruno C.", "rating": 4, "text": "Boa qualidade, só achei a embalagem um pouco simples. No geral, atendeu bem." },
+      { "author": "Fernanda L.", "rating": 5, "text": "Já é a segunda vez que compro, sempre chega certinho e o atendimento é ótimo." }
+    ]
+  },
+  "cart": {
+    "title": "Carrinho de compras",
+    "empty": "Seu carrinho está vazio. Que tal dar uma olhada na loja?",
+    "emptyCta": "Ver produtos",
+    "product": "Produto",
+    "quantity": "Qtd.",
+    "unitPrice": "Preço unitário",
+    "subtotal": "Subtotal",
+    "remove": "Remover",
+    "couponPlaceholder": "Cupom de desconto",
+    "couponApply": "Aplicar",
+    "couponInvalid": "Cupom inválido ou expirado.",
+    "couponApplied": "Cupom aplicado! 10% de desconto.",
+    "shippingTitle": "Calcular frete",
+    "cepPlaceholder": "Digite seu CEP",
+    "cepCalculate": "Calcular",
+    "cepInvalid": "CEP inválido.",
+    "shipping": "Frete",
+    "shippingFree": "Grátis",
+    "total": "Total",
+    "checkoutCta": "Finalizar compra",
+    "continueShopping": "Continuar comprando",
+    "summary": "Resumo do pedido"
+  },
+  "checkout": {
+    "title": "Finalizar compra",
+    "step1": "Dados pessoais",
+    "step2": "Entrega",
+    "step3": "Pagamento",
+    "name": "Nome completo",
+    "email": "E-mail",
+    "phone": "Telefone",
+    "cpf": "CPF",
+    "deliveryMethod": "Forma de recebimento",
+    "deliveryShip": "Entregar no meu endereço",
+    "deliveryPickup": "Retirar na loja",
+    "address": "Endereço",
+    "number": "Número",
+    "complement": "Complemento (opcional)",
+    "neighborhood": "Bairro",
+    "city": "Cidade",
+    "state": "Estado",
+    "zip": "CEP",
+    "paymentMethod": "Forma de pagamento",
+    "paymentPix": "Pix",
+    "paymentPixDesc": "Aprovação imediata",
+    "paymentCard": "Cartão de crédito",
+    "paymentCardDesc": "Em até 3x sem juros",
+    "paymentBoleto": "Boleto",
+    "paymentBoletoDesc": "Vencimento em 3 dias úteis",
+    "cardNumber": "Número do cartão",
+    "cardName": "Nome impresso no cartão",
+    "cardExpiry": "Validade",
+    "cardCvv": "CVV",
+    "orderSummary": "Resumo do pedido",
+    "subtotal": "Subtotal",
+    "shipping": "Frete",
+    "total": "Total",
+    "placeOrder": "Confirmar pedido",
+    "back": "Voltar",
+    "next": "Continuar",
+    "successTitle": "Pedido confirmado!",
+    "successMessage": "Recebemos seu pedido e já estamos preparando tudo com carinho. Você vai receber atualizações por e-mail.",
+    "orderNumber": "Número do pedido",
+    "backToHome": "Voltar para a loja",
+    "required": "Preencha os campos obrigatórios para continuar."
+  },
+  "about": {
+    "title": "Sobre o PET+",
+    "subtitle": "Uma equipe apaixonada por pets, cuidando do seu bicho como se fosse da família",
+    "historyTitle": "Nossa história",
+    "historyText": "O PET+ nasceu da vontade simples de cuidar bem de quem não tem voz. Começamos como uma lojinha de bairro e hoje somos um espaço completo de produtos e serviços, sem nunca perder o que importa: cada pet é único, e merece atenção de verdade.",
+    "teamTitle": "Nosso time",
+    "vetRole": "Veterinária responsável",
+    "vetBio": "Cuida da saúde dos nossos pacientes com carinho e responsabilidade técnica há mais de 10 anos.",
+    "groomerRole": "Especialista em banho & tosa",
+    "groomerBio": "Treinada para lidar com pets ansiosos, de todos os portes e temperamentos.",
+    "founderRole": "Fundadora",
+    "founderBio": "Começou o PET+ depois de adotar três gatos e perceber que faltava cuidado de verdade na região.",
+    "structureTitle": "Nossa estrutura",
+    "structureText": "Espaço amplo e ventilado, com área exclusiva para banho e tosa, consultório veterinário equipado e hotel/creche com supervisão 24 horas."
+  },
+  "account": {
+    "title": "Minha conta",
+    "loginTitle": "Entrar",
+    "registerTitle": "Criar conta",
+    "name": "Nome completo",
+    "email": "E-mail",
+    "password": "Senha",
+    "loginCta": "Entrar",
+    "registerCta": "Criar conta",
+    "switchToRegister": "Ainda não tem conta? Cadastre-se",
+    "switchToLogin": "Já tem conta? Entrar",
+    "ordersTitle": "Meus pedidos",
+    "noOrders": "Você ainda não fez nenhum pedido.",
+    "savedDataTitle": "Dados salvos",
+    "logout": "Sair",
+    "welcomeBack": "Que bom te ver de novo",
+    "orderStatus": {
+      "processing": "Em preparação",
+      "shipped": "Enviado",
+      "delivered": "Entregue"
+    }
+  },
+  "contact": {
+    "title": "Fale conosco",
+    "subtitle": "Dúvidas, sugestões ou só quer mandar foto do seu pet? Estamos por aqui.",
+    "formName": "Nome",
+    "formEmail": "E-mail",
+    "formMessage": "Mensagem",
+    "formSend": "Enviar mensagem",
+    "formSuccess": "Mensagem enviada! Vamos responder em breve.",
+    "addressTitle": "Endereço",
+    "hoursTitle": "Horário de funcionamento",
+    "whatsappTitle": "Fale pelo WhatsApp",
+    "hours": {
+      "weekdays": "Segunda a sexta: 9h às 19h",
+      "saturday": "Sábado: 9h às 14h",
+      "sunday": "Domingo: fechado"
+    }
+  },
+  "faq": {
+    "title": "Perguntas frequentes",
+    "subtitle": "Tudo que você precisa saber antes de comprar ou agendar",
+    "items": [
+      { "q": "Quanto tempo leva pra entrega chegar?", "a": "O prazo varia de acordo com o seu CEP, mas em média entregamos em até 5 dias úteis nas capitais. Você acompanha o status direto em \"Minha Conta\"." },
+      { "q": "Como funciona a troca ou devolução?", "a": "Você tem até 7 dias corridos após o recebimento para solicitar troca ou devolução, desde que o produto esteja sem uso e na embalagem original. Veja todos os detalhes na nossa Política de Troca." },
+      { "q": "Quais formas de pagamento vocês aceitam?", "a": "Aceitamos Pix (com aprovação imediata), cartão de crédito em até 3x sem juros e boleto bancário." },
+      { "q": "Como agendo banho, tosa ou consulta veterinária?", "a": "É só clicar em \"Agendar pelo WhatsApp\" em qualquer página de serviço, ou usar o botão flutuante de WhatsApp. Nosso time confirma o horário rapidinho." },
+      { "q": "Vocês entregam ração de peso grande?", "a": "Sim! Trabalhamos com sacos de até 15kg, com frete calculado automaticamente pelo seu CEP no carrinho." },
+      { "q": "Posso retirar minha compra na loja?", "a": "Pode sim. Na etapa de entrega do checkout, basta escolher \"Retirar na loja\" — sem custo de frete." }
+    ]
+  },
+  "policies": {
+    "exchange": {
+      "title": "Política de Troca e Devolução",
+      "content": "Você tem até 7 dias corridos após o recebimento do produto para solicitar troca ou devolução, conforme o Código de Defesa do Consumidor.\n\nO produto deve estar sem sinais de uso, com embalagem original e nota fiscal. Itens de higiene pessoal do pet (como escovas e produtos abertos) não são elegíveis para troca por questões sanitárias, exceto em caso de defeito de fabricação.\n\nPara solicitar, entre em contato pelo WhatsApp ou pela página de Contato informando o número do pedido. O reembolso é processado em até 10 dias úteis após a confirmação do recebimento do produto devolvido."
+    },
+    "privacy": {
+      "title": "Política de Privacidade",
+      "content": "O PET+ respeita a sua privacidade e a do seu pet. Coletamos apenas os dados necessários para processar pedidos, agendamentos de serviços e melhorar sua experiência: nome, e-mail, telefone, CPF e endereço.\n\nSeus dados não são vendidos a terceiros. Utilizamos provedores de pagamento e entrega apenas para viabilizar a compra. Você pode solicitar a exclusão dos seus dados a qualquer momento pelo Contato.\n\nUtilizamos cookies para manter seu carrinho salvo e melhorar a navegação no site."
+    },
+    "terms": {
+      "title": "Termos de Uso",
+      "content": "Ao utilizar o site do PET+, você concorda com estes termos. Os preços e a disponibilidade de produtos podem mudar sem aviso prévio. Os serviços de banho, tosa, veterinária e hotel estão sujeitos à confirmação de horário via WhatsApp.\n\nO conteúdo deste site (textos, imagens, identidade visual) pertence ao PET+ e não pode ser reproduzido sem autorização. Reservamo-nos o direito de recusar pedidos em casos de suspeita de fraude."
+    }
+  },
+  "footer": {
+    "aboutText": "Loja completa e serviços profissionais de banho, tosa e veterinária. Cuidado de verdade pro seu pet.",
+    "linksTitle": "Links rápidos",
+    "legalTitle": "Institucional",
+    "contactTitle": "Contato",
+    "hoursTitle": "Horário",
+    "socialTitle": "Redes sociais",
+    "rights": "© {{year}} PET+. Todos os direitos reservados.",
+    "address": "Rua dos Pets, 123 — Jardim Primavera, São Paulo — SP",
+    "policiesExchange": "Política de Troca",
+    "policiesPrivacy": "Privacidade",
+    "policiesTerms": "Termos de Uso"
+  },
+  "whatsappFloat": {
+    "tooltip": "Fala com a gente!",
+    "defaultMessage": "Olá! Vim pelo site do PET+ e queria tirar uma dúvida."
+  },
+  "testimonials": {
+    "items": [
+      { "name": "Carla Mendes", "pet": "Tutora da Mel", "text": "O carinho com que tratam a Mel é incrível. Ela sai do banho cheirosa e feliz, e o atendimento da veterinária é maravilhoso." },
+      { "name": "Rafael Souza", "pet": "Tutor do Thor", "text": "Deixo o Thor no hotel sempre que viajo e volto tranquilo. Sei que ele tá sendo bem cuidado." },
+      { "name": "Juliana Alves", "pet": "Tutora da Nina", "text": "Comprei a ração pelo site e chegou rapidinho. A Nina aprovou, e eu também aprovei o preço!" }
+    ]
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "common": {
+    "brand": "PET+",
+    "addToCart": "Ajouter au panier",
+    "buyNow": "Acheter maintenant",
+    "seeMore": "Voir plus",
+    "seeAll": "Tout voir",
+    "from": "à partir de",
+    "freeShipping": "Livraison gratuite dès R$ 199 d'achat",
+    "searchPlaceholder": "Rechercher des produits...",
+    "loading": "Chargement...",
+    "currency": "R$"
+  },
+  "nav": {
+    "home": "Accueil",
+    "shop": "Boutique",
+    "services": "Services",
+    "about": "À propos",
+    "account": "Mon compte",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "cart": "Panier"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Un vrai soin pour votre animal",
+      "title": "Tout l'amour violet du monde pour votre animal",
+      "subtitle": "Une boutique complète et des services professionnels de toilettage, bain et vétérinaire. Tout au même endroit, avec des gens qui comprennent vraiment les animaux.",
+      "ctaBook": "Réserver un bain & toilettage",
+      "ctaShop": "Voir les produits",
+      "statPets": "+3 200 animaux choyés",
+      "statYears": "8 ans à prendre soin de qui vous aimez"
+    },
+    "promo": {
+      "title": "Des offres que votre animal va adorer",
+      "subtitle": "Une sélection spéciale, à prix réduit pour une durée limitée"
+    },
+    "services": {
+      "title": "Tout ce dont votre animal a besoin",
+      "subtitle": "Des services professionnels assurés par une équipe qui traite votre animal comme un membre de la famille",
+      "cta": "Réserver sur WhatsApp"
+    },
+    "categories": {
+      "title": "Catégories en vedette",
+      "subtitle": "Tout est pensé pour le bien-être de votre animal"
+    },
+    "testimonials": {
+      "title": "Ils nous aiment, ils nous recommandent",
+      "subtitle": "De vrais maîtres, des animaux encore plus heureux"
+    },
+    "petPanels": {
+      "dog":   "Chiens",
+      "cat":   "Chats",
+      "other": "Autres"
+    },
+    "newsletter": {
+      "title": "Promotions et conseils directement dans votre boîte mail",
+      "subtitle": "Pas de spam, juste de l'amour (et des réductions).",
+      "placeholder": "Votre meilleur e-mail",
+      "cta": "Je m'inscris"
+    }
+  },
+  "services": {
+    "bath": {
+      "name": "Bain",
+      "short": "Bain complet avec produits hypoallergéniques",
+      "description": "Un bain complet avec shampooing et après-shampooing hypoallergéniques, séchage à la brosse et parfum doux. Un soin pensé pour les peaux sensibles et un pelage brillant.",
+      "priceFrom": "45"
+    },
+    "grooming": {
+      "name": "Toilettage",
+      "short": "Toilettage hygiénique, aux ciseaux ou à la tondeuse",
+      "description": "Toilettage hygiénique, aux ciseaux ou à la tondeuse, dans le style adapté à la race et au caractère de votre animal. Une équipe formée et patiente, même avec les animaux anxieux.",
+      "priceFrom": "60"
+    },
+    "vet": {
+      "name": "Vétérinaire",
+      "short": "Consultations, vaccins et examens",
+      "description": "Consultations, vaccins, examens et bilans de santé avec notre vétérinaire responsable. Un accompagnement humain, sans précipitation, à vos côtés.",
+      "priceFrom": "120"
+    },
+    "hotel": {
+      "name": "Hôtel & Garderie",
+      "short": "Hébergement et jeux sous surveillance 24h/24",
+      "description": "Hébergement et activités sous surveillance 24h/24, un espace spacieux et des jeux en groupe. Votre animal joue, se repose et rentre heureux.",
+      "priceFrom": "80"
+    },
+    "pageTitle": "Nos services",
+    "pageSubtitle": "Un soin professionnel, du bain à la consultation vétérinaire",
+    "bookWhatsapp": "Réserver sur WhatsApp",
+    "priceFromLabel": "à partir de",
+    "perDay": "/jour",
+    "gallery": "Découvrez notre espace",
+    "whatsappMessage": "Bonjour ! Je souhaite réserver le service {{service}} pour mon animal.",
+    "otherServices": "Autres services"
+  },
+  "shop": {
+    "title": "Boutique",
+    "subtitle": "Tout pour votre animal, avec la qualité qu'il mérite",
+    "filters": {
+      "title": "Filtres",
+      "category": "Catégorie",
+      "animal": "Type d'animal",
+      "size": "Taille",
+      "brand": "Marque",
+      "price": "Fourchette de prix",
+      "clear": "Effacer les filtres",
+      "apply": "Appliquer les filtres"
+    },
+    "sort": {
+      "label": "Trier par",
+      "bestsellers": "Meilleures ventes",
+      "priceAsc": "Prix croissant",
+      "priceDesc": "Prix décroissant",
+      "newest": "Nouveautés"
+    },
+    "results_one": "{{count}} produit trouvé",
+    "results_other": "{{count}} produits trouvés",
+    "empty": "Aucun produit trouvé avec ces filtres.",
+    "loadMore": "Charger plus de produits",
+    "animalTypes": { "dog": "Chien", "cat": "Chat", "other": "Autres" },
+    "categories": {
+      "food": "Nourriture",
+      "toys": "Jouets",
+      "accessories": "Accessoires",
+      "hygiene": "Hygiène",
+      "medicine": "Médicaments"
+    },
+    "sizes": { "small": "Petit", "medium": "Moyen", "large": "Grand" },
+    "badges": { "bestseller": "Best-seller", "new": "Nouveauté", "sale": "Promo" }
+  },
+  "product": {
+    "inStock_one": "{{count}} unité en stock",
+    "inStock_other": "{{count}} unités en stock",
+    "outOfStock": "Rupture de stock",
+    "description": "Description",
+    "specs": "Fiche technique",
+    "specsWeight": "Poids",
+    "specsBrand": "Marque",
+    "specsUsage": "Mode d'utilisation",
+    "specsSku": "Référence",
+    "reviews": "Avis clients",
+    "reviewsCount_one": "{{count}} avis",
+    "reviewsCount_other": "{{count}} avis",
+    "related": "Vous aimerez aussi",
+    "selectVariant": "Choisissez une option",
+    "quantity": "Quantité",
+    "addedToCart": "Ajouté au panier !",
+    "breadcrumbShop": "Boutique",
+    "usageText": "Suivez les recommandations de l'emballage. En cas de doute, contactez notre équipe ou le vétérinaire responsable.",
+    "sampleReviews": [
+      { "author": "Marina T.", "rating": 5, "text": "Excellent produit, livré très rapidement et mon animal a adoré ! Je recommande vivement." },
+      { "author": "Bruno C.", "rating": 4, "text": "Bonne qualité, l'emballage était un peu simple. Dans l'ensemble, une bonne expérience." },
+      { "author": "Fernanda L.", "rating": 5, "text": "Deuxième achat, toujours livré à temps et le service est excellent." }
+    ]
+  },
+  "cart": {
+    "title": "Panier",
+    "empty": "Votre panier est vide. Et si vous alliez faire un tour à la boutique ?",
+    "emptyCta": "Voir les produits",
+    "product": "Produit",
+    "quantity": "Qté",
+    "unitPrice": "Prix unitaire",
+    "subtotal": "Sous-total",
+    "remove": "Retirer",
+    "couponPlaceholder": "Code promo",
+    "couponApply": "Appliquer",
+    "couponInvalid": "Code promo invalide ou expiré.",
+    "couponApplied": "Code promo appliqué ! 10% de réduction.",
+    "shippingTitle": "Calculer la livraison",
+    "cepPlaceholder": "Entrez votre code postal",
+    "cepCalculate": "Calculer",
+    "cepInvalid": "Code postal invalide.",
+    "shipping": "Livraison",
+    "shippingFree": "Gratuite",
+    "total": "Total",
+    "checkoutCta": "Passer la commande",
+    "continueShopping": "Continuer mes achats",
+    "summary": "Résumé de la commande"
+  },
+  "checkout": {
+    "title": "Passer la commande",
+    "step1": "Informations personnelles",
+    "step2": "Livraison",
+    "step3": "Paiement",
+    "name": "Nom complet",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "cpf": "CPF (identifiant fiscal)",
+    "deliveryMethod": "Mode de réception",
+    "deliveryShip": "Livrer à mon adresse",
+    "deliveryPickup": "Retrait en boutique",
+    "address": "Adresse",
+    "number": "Numéro",
+    "complement": "Complément (facultatif)",
+    "neighborhood": "Quartier",
+    "city": "Ville",
+    "state": "État",
+    "zip": "Code postal",
+    "paymentMethod": "Mode de paiement",
+    "paymentPix": "Pix",
+    "paymentPixDesc": "Approbation immédiate",
+    "paymentCard": "Carte de crédit",
+    "paymentCardDesc": "Jusqu'à 3x sans frais",
+    "paymentBoleto": "Boleto",
+    "paymentBoletoDesc": "Échéance sous 3 jours ouvrés",
+    "cardNumber": "Numéro de carte",
+    "cardName": "Nom sur la carte",
+    "cardExpiry": "Date d'expiration",
+    "cardCvv": "CVV",
+    "orderSummary": "Résumé de la commande",
+    "subtotal": "Sous-total",
+    "shipping": "Livraison",
+    "total": "Total",
+    "placeOrder": "Confirmer la commande",
+    "back": "Retour",
+    "next": "Continuer",
+    "successTitle": "Commande confirmée !",
+    "successMessage": "Nous avons bien reçu votre commande et préparons déjà tout avec soin. Vous recevrez des mises à jour par e-mail.",
+    "orderNumber": "Numéro de commande",
+    "backToHome": "Retour à la boutique",
+    "required": "Remplissez les champs obligatoires pour continuer."
+  },
+  "about": {
+    "title": "À propos de PET+",
+    "subtitle": "Une équipe passionnée par les animaux, prenant soin du vôtre comme un membre de la famille",
+    "historyTitle": "Notre histoire",
+    "historyText": "PET+ est né d'une envie simple : prendre vraiment soin de ceux qui n'ont pas de voix. Nous avons commencé comme une petite boutique de quartier et sommes aujourd'hui un espace complet de produits et de services, sans jamais perdre de vue l'essentiel : chaque animal est unique et mérite une attention sincère.",
+    "teamTitle": "Notre équipe",
+    "vetRole": "Vétérinaire responsable",
+    "vetBio": "Prend soin de la santé de nos patients avec dévouement et rigueur technique depuis plus de 10 ans.",
+    "groomerRole": "Spécialiste bain & toilettage",
+    "groomerBio": "Formée pour s'occuper des animaux anxieux, quelle que soit leur taille ou leur tempérament.",
+    "founderRole": "Fondatrice",
+    "founderBio": "A lancé PET+ après avoir adopté trois chats et constaté qu'il manquait un vrai soin animalier dans le quartier.",
+    "structureTitle": "Notre espace",
+    "structureText": "Un espace vaste et bien aéré, avec une zone dédiée au bain et au toilettage, un cabinet vétérinaire équipé et un hôtel/garderie sous surveillance 24h/24."
+  },
+  "account": {
+    "title": "Mon compte",
+    "loginTitle": "Se connecter",
+    "registerTitle": "Créer un compte",
+    "name": "Nom complet",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "loginCta": "Se connecter",
+    "registerCta": "Créer un compte",
+    "switchToRegister": "Pas encore de compte ? Inscrivez-vous",
+    "switchToLogin": "Déjà un compte ? Connectez-vous",
+    "ordersTitle": "Mes commandes",
+    "noOrders": "Vous n'avez encore passé aucune commande.",
+    "savedDataTitle": "Informations enregistrées",
+    "logout": "Se déconnecter",
+    "welcomeBack": "Ravis de vous revoir",
+    "orderStatus": {
+      "processing": "En préparation",
+      "shipped": "Expédiée",
+      "delivered": "Livrée"
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Des questions, des suggestions, ou juste envie d'envoyer une photo de votre animal ? Nous sommes là.",
+    "formName": "Nom",
+    "formEmail": "E-mail",
+    "formMessage": "Message",
+    "formSend": "Envoyer le message",
+    "formSuccess": "Message envoyé ! Nous répondrons bientôt.",
+    "addressTitle": "Adresse",
+    "hoursTitle": "Horaires d'ouverture",
+    "whatsappTitle": "Discuter sur WhatsApp",
+    "hours": {
+      "weekdays": "Du lundi au vendredi : 9h à 19h",
+      "saturday": "Samedi : 9h à 14h",
+      "sunday": "Dimanche : fermé"
+    }
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "subtitle": "Tout ce qu'il faut savoir avant d'acheter ou de réserver",
+    "items": [
+      { "q": "Combien de temps prend la livraison ?", "a": "Le délai varie selon votre code postal, mais en moyenne nous livrons sous 5 jours ouvrés dans les grandes villes. Vous pouvez suivre le statut dans « Mon compte »." },
+      { "q": "Comment fonctionnent l'échange et le retour ?", "a": "Vous disposez de 7 jours calendaires après réception pour demander un échange ou un retour, à condition que le produit soit inutilisé et dans son emballage d'origine. Voir tous les détails dans notre Politique de retour." },
+      { "q": "Quels moyens de paiement acceptez-vous ?", "a": "Nous acceptons le Pix (approbation immédiate), la carte de crédit en 3x sans frais, et le boleto bancaire." },
+      { "q": "Comment réserver un bain, un toilettage ou une consultation vétérinaire ?", "a": "Cliquez simplement sur « Réserver sur WhatsApp » sur n'importe quelle page de service, ou utilisez le bouton WhatsApp flottant. Notre équipe confirme le créneau rapidement." },
+      { "q": "Livrez-vous les grands sacs de nourriture ?", "a": "Oui ! Nous proposons des sacs jusqu'à 15 kg, avec des frais de livraison calculés automatiquement selon votre code postal dans le panier." },
+      { "q": "Puis-je retirer ma commande en boutique ?", "a": "Bien sûr. À l'étape de livraison du paiement, choisissez simplement « Retrait en boutique » — sans frais de livraison." }
+    ]
+  },
+  "policies": {
+    "exchange": {
+      "title": "Politique d'échange et de retour",
+      "content": "Vous disposez de 7 jours calendaires après réception du produit pour demander un échange ou un retour, conformément à la législation de protection des consommateurs.\n\nLe produit doit être sans signe d'utilisation, avec son emballage d'origine et la facture. Les articles d'hygiène personnelle de l'animal (comme les brosses et produits ouverts) ne sont pas éligibles à l'échange pour des raisons sanitaires, sauf défaut de fabrication.\n\nPour faire une demande, contactez-nous via WhatsApp ou la page Contact en indiquant votre numéro de commande. Le remboursement est traité sous 10 jours ouvrés après confirmation de réception du produit retourné."
+    },
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "content": "PET+ respecte votre vie privée et celle de votre animal. Nous ne collectons que les données nécessaires pour traiter les commandes, réserver des services et améliorer votre expérience : nom, e-mail, téléphone, identifiant fiscal et adresse.\n\nVos données ne sont jamais vendues à des tiers. Nous utilisons des prestataires de paiement et de livraison uniquement pour réaliser votre achat. Vous pouvez demander la suppression de vos données à tout moment via la page Contact.\n\nNous utilisons des cookies pour conserver votre panier et améliorer la navigation sur le site."
+    },
+    "terms": {
+      "title": "Conditions d'utilisation",
+      "content": "En utilisant le site PET+, vous acceptez ces conditions. Les prix et la disponibilité des produits peuvent changer sans préavis. Les services de bain, toilettage, vétérinaire et hôtel sont soumis à confirmation du créneau via WhatsApp.\n\nLe contenu de ce site (textes, images, identité visuelle) appartient à PET+ et ne peut être reproduit sans autorisation. Nous nous réservons le droit de refuser des commandes en cas de suspicion de fraude."
+    }
+  },
+  "footer": {
+    "aboutText": "Une boutique complète et des services professionnels de bain, toilettage et vétérinaire. Un vrai soin pour votre animal.",
+    "linksTitle": "Liens rapides",
+    "legalTitle": "Entreprise",
+    "contactTitle": "Contact",
+    "hoursTitle": "Horaires",
+    "socialTitle": "Réseaux sociaux",
+    "rights": "© {{year}} PET+. Tous droits réservés.",
+    "address": "Rua dos Pets, 123 — Jardim Primavera, São Paulo — SP",
+    "policiesExchange": "Politique d'échange",
+    "policiesPrivacy": "Confidentialité",
+    "policiesTerms": "Conditions d'utilisation"
+  },
+  "whatsappFloat": {
+    "tooltip": "Parlez-nous !",
+    "defaultMessage": "Bonjour ! Je viens du site PET+ et j'aurais une question."
+  },
+  "testimonials": {
+    "items": [
+      { "name": "Carla Mendes", "pet": "Tutrice de Mel", "text": "Le soin qu'ils apportent à Mel est incroyable. Elle sort du bain sentant bon et heureuse, et le suivi vétérinaire est formidable." },
+      { "name": "Rafael Souza", "pet": "Tuteur de Thor", "text": "Je laisse Thor à l'hôtel à chaque voyage et je reviens l'esprit tranquille. Je sais qu'il est bien soigné." },
+      { "name": "Juliana Alves", "pet": "Tutrice de Nina", "text": "J'ai acheté de la nourriture sur le site et elle est arrivée très vite. Nina a approuvé, et moi aussi, le prix !" }
+    ]
+  }
+}

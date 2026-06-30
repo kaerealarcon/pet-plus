@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PET+ — Loja online e serviços para o seu pet</title>
+    <meta
+      name="description"
+      content="PET+: pet shop completo com loja online e serviços profissionais de banho, tosa, veterinária e hotel/creche."
+    />
+  </head>
+  <body>
+    <script>
+      // Decode the redirect from 404.html back to the correct path
+      (function () {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+        // decode query-param path from 404.html redirect
+        var search = location.search;
+        if (search.indexOf('?p=/') === 0 || search.indexOf('&p=/') !== -1) {
+          var params = search.slice(1).split('&').reduce(function (p, s) {
+            var r = s.split('='); p[r[0]] = r.slice(1).join('=').replace(/~and~/g, '&'); return p;
+          }, {});
+          if (params.p !== undefined) {
+            window.history.replaceState(null, null,
+              location.pathname.slice(0, -1) + (params.p || '/') +
+              (params.q ? '?' + params.q : '') +
+              location.hash
+            );
+          }
+        }
+      }());
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

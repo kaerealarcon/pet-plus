@@ -1,0 +1,328 @@
+{
+  "common": {
+    "brand": "PET+",
+    "addToCart": "Add to cart",
+    "buyNow": "Buy now",
+    "seeMore": "See more",
+    "seeAll": "See all",
+    "from": "from",
+    "freeShipping": "Free shipping on orders over R$ 199",
+    "searchPlaceholder": "Search products...",
+    "loading": "Loading...",
+    "currency": "R$"
+  },
+  "nav": {
+    "home": "Home",
+    "shop": "Shop",
+    "services": "Services",
+    "about": "About",
+    "account": "My Account",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "cart": "Cart"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Real care for your pet",
+      "title": "All the purple-hearted love your pet deserves",
+      "subtitle": "A complete store and professional grooming, bathing and veterinary services. Everything in one place, with people who truly understand pets.",
+      "ctaBook": "Book a bath & grooming",
+      "ctaShop": "Shop products",
+      "statPets": "+3,200 pets cared for",
+      "statYears": "8 years caring for who you love"
+    },
+    "promo": {
+      "title": "Deals your pet will love",
+      "subtitle": "A special selection, discounted for a limited time"
+    },
+    "services": {
+      "title": "Everything your pet needs",
+      "subtitle": "Professional services from people who treat your pet like family",
+      "cta": "Book on WhatsApp"
+    },
+    "categories": {
+      "title": "Featured categories",
+      "subtitle": "Everything curated with your pet's well-being in mind"
+    },
+    "testimonials": {
+      "title": "Loved by pet parents",
+      "subtitle": "Real tutors, even happier pets"
+    },
+    "petPanels": {
+      "dog":   "Dogs",
+      "cat":   "Cats",
+      "other": "Others"
+    },
+    "newsletter": {
+      "title": "Deals and tips straight to your inbox",
+      "subtitle": "No spam, just love (and discounts).",
+      "placeholder": "Your best email",
+      "cta": "Sign me up"
+    }
+  },
+  "services": {
+    "bath": {
+      "name": "Bath",
+      "short": "Full bath with hypoallergenic products",
+      "description": "A complete bath with hypoallergenic shampoo and conditioner, brush drying and a gentle scent. Care designed for sensitive skin and a shiny coat.",
+      "priceFrom": "45"
+    },
+    "grooming": {
+      "name": "Grooming",
+      "short": "Hygienic grooming, scissors or clippers",
+      "description": "Hygienic grooming, by scissors or clippers, in the style that fits your pet's breed and personality. A trained, patient team for anxious pets too.",
+      "priceFrom": "60"
+    },
+    "vet": {
+      "name": "Veterinary",
+      "short": "Consultations, vaccines and exams",
+      "description": "Consultations, vaccines, exams and check-ups with our responsible veterinarian. Humanized care, no rush, with you by their side.",
+      "priceFrom": "120"
+    },
+    "hotel": {
+      "name": "Hotel & Daycare",
+      "short": "24h supervised boarding and play",
+      "description": "24-hour supervised boarding and play, a spacious area and group activities. Your pet plays, rests and comes home happy.",
+      "priceFrom": "80"
+    },
+    "pageTitle": "Our services",
+    "pageSubtitle": "Professional care, from bath time to the vet's office",
+    "bookWhatsapp": "Book on WhatsApp",
+    "priceFromLabel": "from",
+    "perDay": "/day",
+    "gallery": "Take a look at our space",
+    "whatsappMessage": "Hi! I'd like to book the {{service}} service for my pet.",
+    "otherServices": "Other services"
+  },
+  "shop": {
+    "title": "Shop",
+    "subtitle": "Everything for your pet, with the quality they deserve",
+    "filters": {
+      "title": "Filters",
+      "category": "Category",
+      "animal": "Animal type",
+      "size": "Size",
+      "brand": "Brand",
+      "price": "Price range",
+      "clear": "Clear filters",
+      "apply": "Apply filters"
+    },
+    "sort": {
+      "label": "Sort by",
+      "bestsellers": "Bestsellers",
+      "priceAsc": "Lowest price",
+      "priceDesc": "Highest price",
+      "newest": "New arrivals"
+    },
+    "results_one": "{{count}} product found",
+    "results_other": "{{count}} products found",
+    "empty": "No products found with these filters.",
+    "loadMore": "Load more products",
+    "animalTypes": { "dog": "Dog", "cat": "Cat", "other": "Other" },
+    "categories": {
+      "food": "Food",
+      "toys": "Toys",
+      "accessories": "Accessories",
+      "hygiene": "Hygiene",
+      "medicine": "Medicine"
+    },
+    "sizes": { "small": "Small", "medium": "Medium", "large": "Large" },
+    "badges": { "bestseller": "Bestseller", "new": "New", "sale": "Sale" }
+  },
+  "product": {
+    "inStock_one": "{{count}} unit in stock",
+    "inStock_other": "{{count}} units in stock",
+    "outOfStock": "Out of stock",
+    "description": "Description",
+    "specs": "Specifications",
+    "specsWeight": "Weight",
+    "specsBrand": "Brand",
+    "specsUsage": "Usage instructions",
+    "specsSku": "SKU",
+    "reviews": "Customer reviews",
+    "reviewsCount_one": "{{count}} review",
+    "reviewsCount_other": "{{count}} reviews",
+    "related": "You may also like",
+    "selectVariant": "Select an option",
+    "quantity": "Quantity",
+    "addedToCart": "Added to cart!",
+    "breadcrumbShop": "Shop",
+    "usageText": "Follow the instructions on the packaging. If in doubt, contact our team or the responsible veterinarian.",
+    "sampleReviews": [
+      { "author": "Marina T.", "rating": 5, "text": "Excellent product, arrived super fast and my pet loved it! Highly recommend." },
+      { "author": "Bruno C.", "rating": 4, "text": "Good quality, the packaging felt a bit plain. Overall a good experience." },
+      { "author": "Fernanda L.", "rating": 5, "text": "Second time buying this, always arrives on time and the service is great." }
+    ]
+  },
+  "cart": {
+    "title": "Shopping cart",
+    "empty": "Your cart is empty. How about browsing the shop?",
+    "emptyCta": "Shop products",
+    "product": "Product",
+    "quantity": "Qty",
+    "unitPrice": "Unit price",
+    "subtotal": "Subtotal",
+    "remove": "Remove",
+    "couponPlaceholder": "Discount coupon",
+    "couponApply": "Apply",
+    "couponInvalid": "Invalid or expired coupon.",
+    "couponApplied": "Coupon applied! 10% off.",
+    "shippingTitle": "Calculate shipping",
+    "cepPlaceholder": "Enter your ZIP code",
+    "cepCalculate": "Calculate",
+    "cepInvalid": "Invalid ZIP code.",
+    "shipping": "Shipping",
+    "shippingFree": "Free",
+    "total": "Total",
+    "checkoutCta": "Checkout",
+    "continueShopping": "Continue shopping",
+    "summary": "Order summary"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "step1": "Personal details",
+    "step2": "Delivery",
+    "step3": "Payment",
+    "name": "Full name",
+    "email": "Email",
+    "phone": "Phone",
+    "cpf": "Tax ID (CPF)",
+    "deliveryMethod": "Delivery method",
+    "deliveryShip": "Ship to my address",
+    "deliveryPickup": "Pick up in store",
+    "address": "Address",
+    "number": "Number",
+    "complement": "Complement (optional)",
+    "neighborhood": "Neighborhood",
+    "city": "City",
+    "state": "State",
+    "zip": "ZIP code",
+    "paymentMethod": "Payment method",
+    "paymentPix": "Pix",
+    "paymentPixDesc": "Instant approval",
+    "paymentCard": "Credit card",
+    "paymentCardDesc": "Up to 3x interest-free",
+    "paymentBoleto": "Bank slip",
+    "paymentBoletoDesc": "Due in 3 business days",
+    "cardNumber": "Card number",
+    "cardName": "Name on card",
+    "cardExpiry": "Expiry",
+    "cardCvv": "CVV",
+    "orderSummary": "Order summary",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "total": "Total",
+    "placeOrder": "Confirm order",
+    "back": "Back",
+    "next": "Continue",
+    "successTitle": "Order confirmed!",
+    "successMessage": "We've received your order and are already preparing everything with care. You'll get updates by email.",
+    "orderNumber": "Order number",
+    "backToHome": "Back to shop",
+    "required": "Fill in the required fields to continue."
+  },
+  "about": {
+    "title": "About PET+",
+    "subtitle": "A team passionate about pets, caring for yours like family",
+    "historyTitle": "Our story",
+    "historyText": "PET+ was born from a simple wish: to truly care for those who have no voice. We started as a small neighborhood shop and today we're a full space for products and services, never losing sight of what matters: every pet is unique and deserves real attention.",
+    "teamTitle": "Our team",
+    "vetRole": "Responsible veterinarian",
+    "vetBio": "Caring for our patients' health with dedication and technical responsibility for over 10 years.",
+    "groomerRole": "Bath & grooming specialist",
+    "groomerBio": "Trained to handle anxious pets of every size and temperament.",
+    "founderRole": "Founder",
+    "founderBio": "Started PET+ after adopting three cats and realizing the neighborhood lacked real pet care.",
+    "structureTitle": "Our space",
+    "structureText": "A spacious, well-ventilated space with a dedicated bath & grooming area, an equipped vet office, and a hotel/daycare with 24-hour supervision."
+  },
+  "account": {
+    "title": "My account",
+    "loginTitle": "Sign in",
+    "registerTitle": "Create account",
+    "name": "Full name",
+    "email": "Email",
+    "password": "Password",
+    "loginCta": "Sign in",
+    "registerCta": "Create account",
+    "switchToRegister": "Don't have an account? Sign up",
+    "switchToLogin": "Already have an account? Sign in",
+    "ordersTitle": "My orders",
+    "noOrders": "You haven't placed any orders yet.",
+    "savedDataTitle": "Saved details",
+    "logout": "Log out",
+    "welcomeBack": "Welcome back",
+    "orderStatus": {
+      "processing": "Processing",
+      "shipped": "Shipped",
+      "delivered": "Delivered"
+    }
+  },
+  "contact": {
+    "title": "Get in touch",
+    "subtitle": "Questions, suggestions, or just want to send a pet photo? We're here.",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formMessage": "Message",
+    "formSend": "Send message",
+    "formSuccess": "Message sent! We'll reply soon.",
+    "addressTitle": "Address",
+    "hoursTitle": "Opening hours",
+    "whatsappTitle": "Chat on WhatsApp",
+    "hours": {
+      "weekdays": "Monday to Friday: 9am to 7pm",
+      "saturday": "Saturday: 9am to 2pm",
+      "sunday": "Sunday: closed"
+    }
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "subtitle": "Everything you need to know before buying or booking",
+    "items": [
+      { "q": "How long does delivery take?", "a": "Delivery time varies by ZIP code, but on average we deliver within 5 business days in major cities. You can track the status in \"My Account\"." },
+      { "q": "How does the exchange/return process work?", "a": "You have up to 7 calendar days after receiving your order to request an exchange or return, as long as the product is unused and in its original packaging. See full details in our Exchange Policy." },
+      { "q": "What payment methods do you accept?", "a": "We accept Pix (instant approval), credit card in up to 3 interest-free installments, and bank slip." },
+      { "q": "How do I book a bath, grooming or vet appointment?", "a": "Just click \"Book on WhatsApp\" on any service page, or use the floating WhatsApp button. Our team confirms the time quickly." },
+      { "q": "Do you deliver large bags of pet food?", "a": "Yes! We carry bags up to 15kg, with shipping automatically calculated by your ZIP code in the cart." },
+      { "q": "Can I pick up my order in store?", "a": "Sure can. In the delivery step of checkout, just choose \"Pick up in store\" — no shipping cost." }
+    ]
+  },
+  "policies": {
+    "exchange": {
+      "title": "Exchange & Return Policy",
+      "content": "You have up to 7 calendar days after receiving the product to request an exchange or return, in accordance with consumer protection law.\n\nThe product must show no signs of use, with original packaging and invoice. Personal pet hygiene items (such as brushes and opened products) are not eligible for exchange for sanitary reasons, except in case of a manufacturing defect.\n\nTo request one, contact us via WhatsApp or the Contact page with your order number. Refunds are processed within 10 business days after the returned product is received and confirmed."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "content": "PET+ respects your privacy and your pet's. We only collect the data needed to process orders, book services and improve your experience: name, email, phone, tax ID and address.\n\nYour data is never sold to third parties. We use payment and delivery providers solely to fulfill your purchase. You may request deletion of your data at any time via Contact.\n\nWe use cookies to keep your cart saved and improve site navigation."
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "content": "By using the PET+ website, you agree to these terms. Prices and product availability may change without notice. Bath, grooming, veterinary and hotel services are subject to time confirmation via WhatsApp.\n\nThe content of this site (text, images, visual identity) belongs to PET+ and may not be reproduced without authorization. We reserve the right to refuse orders in cases of suspected fraud."
+    }
+  },
+  "footer": {
+    "aboutText": "A complete store and professional bathing, grooming and veterinary services. Real care for your pet.",
+    "linksTitle": "Quick links",
+    "legalTitle": "Company",
+    "contactTitle": "Contact",
+    "hoursTitle": "Hours",
+    "socialTitle": "Social media",
+    "rights": "© {{year}} PET+. All rights reserved.",
+    "address": "Rua dos Pets, 123 — Jardim Primavera, São Paulo — SP",
+    "policiesExchange": "Exchange Policy",
+    "policiesPrivacy": "Privacy",
+    "policiesTerms": "Terms of Use"
+  },
+  "whatsappFloat": {
+    "tooltip": "Talk to us!",
+    "defaultMessage": "Hi! I came from the PET+ website and had a question."
+  },
+  "testimonials": {
+    "items": [
+      { "name": "Carla Mendes", "pet": "Mel's tutor", "text": "The care they give Mel is amazing. She leaves the bath smelling great and happy, and the vet's care is wonderful." },
+      { "name": "Rafael Souza", "pet": "Thor's tutor", "text": "I leave Thor at the hotel whenever I travel and come back at ease. I know he's well taken care of." },
+      { "name": "Juliana Alves", "pet": "Nina's tutor", "text": "I bought food on the website and it arrived super fast. Nina approved, and so did I, of the price!" }
+    ]
+  }
+}

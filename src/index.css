@@ -1,0 +1,167 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=Inter:wght@400;500;600;700&display=swap");
+
+@theme {
+  --font-display: "Nunito", "Inter", system-ui, sans-serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+
+  /* purple brand */
+  --color-brand-50:  #f5f3ff;
+  --color-brand-100: #ede9fe;
+  --color-brand-200: #ddd6fe;
+  --color-brand-300: #c4b5fd;
+  --color-brand-400: #a78bfa;
+  --color-brand-500: #8b5cf6;
+  --color-brand-600: #7c3aed;
+  --color-brand-700: #6d28d9;
+  --color-brand-800: #5b21b6;
+  --color-brand-900: #4c1d95;
+  --color-brand-950: #2e1065;
+
+  /* yellow accent */
+  --color-accent-300: #fde047;
+  --color-accent-400: #facc15;
+  --color-accent-500: #eab308;
+  --color-accent-600: #ca8a04;
+
+  /* pink highlight */
+  --color-pop-400: #f472b6;
+  --color-pop-500: #ec4899;
+
+  /* yellow highlight */
+  --color-sunny-400: #facc15;
+  --color-sunny-500: #eab308;
+
+  /* green */
+  --color-fresh-400: #4ade80;
+  --color-fresh-500: #22c55e;
+  --color-fresh-600: #16a34a;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: #fff;
+  color: #1a0533;
+}
+
+h1,h2,h3,h4,h5,.font-display { font-family: var(--font-display); }
+
+::selection { background: var(--color-brand-300); color: var(--color-brand-950); }
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--color-brand-50); }
+::-webkit-scrollbar-thumb { background: var(--color-brand-300); border-radius: 99px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-brand-400); }
+
+/* ── GRADIENTS ─────────────────────────────────────────── */
+.grad-hero {
+  background:
+    radial-gradient(ellipse 120% 80% at 80% -10%, #ddd6fe 0%, transparent 60%),
+    radial-gradient(ellipse 80% 60% at -10% 60%,  #ede9fe 0%, transparent 55%),
+    #ffffff;
+}
+
+.grad-brand  { background: linear-gradient(135deg, #7c3aed, #5b21b6); }
+.grad-accent { background: linear-gradient(135deg, #eab308, #ca8a04); }
+.grad-pop    { background: linear-gradient(135deg, #ec4899, #be185d); }
+.grad-sunny  { background: linear-gradient(135deg, #facc15, #f59e0b); }
+.grad-fresh  { background: linear-gradient(135deg, #22c55e, #15803d); }
+.grad-card   { background: linear-gradient(160deg, #7c3aed 0%, #a78bfa 100%); }
+.grad-dark   { background: linear-gradient(135deg, #2e1065, #4c1d95); }
+
+.grad-text {
+  background: linear-gradient(135deg, #7c3aed, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── SHADOWS ───────────────────────────────────────────── */
+.shadow-brand  { box-shadow: 0 8px 32px -8px rgb(124 58 237 / 0.45); }
+.shadow-brand-lg { box-shadow: 0 20px 60px -12px rgb(124 58 237 / 0.5); }
+.shadow-accent { box-shadow: 0 8px 32px -8px rgb(234 179 8 / 0.55); }
+.shadow-card   { box-shadow: 0 2px 12px rgb(0 0 0 / 0.06); }
+.shadow-card-hover { box-shadow: 0 12px 40px -8px rgb(124 58 237 / 0.25); }
+
+/* ── KEYFRAMES ─────────────────────────────────────────── */
+@keyframes float    { 0%,100%{transform:translateY(0)}   50%{transform:translateY(-14px)} }
+@keyframes floatB   { 0%,100%{transform:translateY(-6px)}50%{transform:translateY(8px)}  }
+@keyframes blob     { 0%,100%{border-radius:60% 40% 70% 30%/50% 60% 40% 70%}
+                       50%{border-radius:40% 60% 30% 70%/60% 40% 70% 30%} }
+@keyframes spin-slow { to{transform:rotate(360deg)} }
+@keyframes ticker   { from{transform:translateX(0)} to{transform:translateX(-50%)} }
+@keyframes scalePop { 0%{transform:scale(1)} 50%{transform:scale(1.14)} 100%{transform:scale(1)} }
+@keyframes shimmer  { 0%{background-position:-400px 0} 100%{background-position:400px 0} }
+@keyframes wiggle   { 0%,100%{transform:rotate(0)}20%{transform:rotate(-6deg)}40%{transform:rotate(6deg)}60%{transform:rotate(-4deg)}80%{transform:rotate(4deg)} }
+
+.animate-float      { animation: float     5s ease-in-out infinite; }
+.animate-floatB     { animation: floatB    6s ease-in-out infinite; }
+.animate-blob       { animation: blob     10s ease-in-out infinite; }
+.animate-spin-slow  { animation: spin-slow 24s linear infinite; }
+.animate-ticker     { animation: ticker   22s linear infinite; }
+.animate-scalePop   { animation: scalePop  1.8s ease-in-out infinite; }
+.animate-wiggle     { animation: wiggle    .5s ease-in-out; }
+
+/* ── WAVE DIVIDER ─────────────────────────────────────── */
+.wave-bottom {
+  position:relative;
+}
+.wave-bottom::after {
+  content:"";
+  position:absolute;
+  bottom:-2px;left:0;right:0;
+  height:56px;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 56'%3E%3Cpath fill='%23f5f3ff' d='M0,32L48,26.7C96,21,192,11,288,16C384,21,480,43,576,48C672,53,768,43,864,37.3C960,32,1056,32,1152,26.7C1248,21,1344,11,1392,5.3L1440,0L1440,56L0,56Z'/%3E%3C/svg%3E") no-repeat bottom;
+  background-size: 100% 100%;
+}
+.wave-top {
+  position:relative;
+}
+.wave-top::before {
+  content:"";
+  position:absolute;
+  top:-2px;left:0;right:0;
+  height:56px;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 56'%3E%3Cpath fill='%23f5f3ff' d='M0,32L48,37.3C96,43,192,53,288,48C384,43,480,21,576,16C672,11,768,21,864,26.7C960,32,1056,32,1152,37.3C1248,43,1344,53,1392,58.7L1440,64L1440,0L0,0Z'/%3E%3C/svg%3E") no-repeat top;
+  background-size: 100% 100%;
+}
+
+/* ── RIBBON BADGE ─────────────────────────────────────── */
+.ribbon {
+  position:absolute;top:14px;left:-6px;
+  background:#eab308;
+  color:#1a0533;
+  font-size:11px;font-weight:800;
+  padding:3px 10px 3px 8px;
+  border-radius:0 4px 4px 0;
+  box-shadow:2px 2px 8px rgb(234 179 8/.4);
+}
+.ribbon::before {
+  content:"";
+  position:absolute;left:-6px;bottom:-6px;
+  border:6px solid transparent;
+  border-right-color:#a16207;
+  border-top-color:#c2410c;
+}
+
+/* ── QUICK-ADD OVERLAY (hover devices only) ──────────── */
+.product-card-overlay {
+  position:absolute;inset:0;
+  display:flex;align-items:flex-end;justify-content:center;
+  padding:1rem;
+  background:linear-gradient(to top, rgb(46 16 101/.7) 0%, transparent 55%);
+  /* hidden by default everywhere */
+  opacity:0;
+  pointer-events:none;
+  transition:opacity .25s;
+}
+/* only activate on real hover (not touch tap) */
+@media (hover: hover) and (pointer: fine) {
+  .group:hover .product-card-overlay {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
